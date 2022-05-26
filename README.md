@@ -16,7 +16,13 @@ The data was split in the following way:
 15% of the data for testing, i.e. 225 positive and 225 negative examples, resulting in 450 example images.
 
 # Part 2: Data Preprocessing
-
+Keras's  'ImageDataGenerator' class ensures that model receives new variation of training image at each epoch by applying random transformation.
+I've use different authentication techniques like 
+I've set batch size = .
+This will reduce overall memory usage.
+flow 
+method allows to read the images directory from directory and augment them while network model is learning on training images.
+For testing dataset, I've set batch size = 1, because in real life scenario, we process 1 image at a time.
 
 # Part 3: CNN architecture that I've built:
 
