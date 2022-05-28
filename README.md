@@ -1,10 +1,9 @@
 # Brain-Tumor-Detection-Using-CNN
-Design a CNN model to detect whether the MRI has a brain tumor or not.
 
 # Aim:
-The main goal of this project is to design efficient automatic brain tumor detection technique with high acuracy, performance using CNN.
+The main goal of this project is to design CNN model to accurately identify the abnormal tumor region in MRI.
 
-# About the dataset:
+# Dataset Description:
 The dataset contains 2 folders: yes and no which contains total 3000 Brain MRI Images. The folder yes contains 1500 Brain MRI Images that are tumorous and the folder no contains 1500 Brain MRI Images that are non-tumorous.
 
 Dataset is here : https://rb.gy/m5y2er
