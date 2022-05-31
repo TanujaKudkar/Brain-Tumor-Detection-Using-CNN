@@ -22,12 +22,19 @@ I've set batch size = 16 . This will reduce overall memory usage.
 For testing dataset, I've set batch size = 1, because in real life scenario, we process 1 image at a time.
 
 # Part 3: CNN architecture that I've built:
+Convolutional Neural Network (CNN) is the deep learning technique to perform image classification. The Keras library in Python makes it pretty simple to build a CNN. The model type that I have used is Sequential. ‘add()’ function is used to add multiple deep layers to CNN architecture. 24 in the first layer and 64 in the second layer, 128 in the third layer are the number of nodes in each layer. I have set Kernel size = 3 (i.e. 3x3 filter matrix) 
+
+Computers see images using pixels. Pixels in images are usually related. A convolution multiplies a matrix of pixels with a filter matrix or ‘kernel’ and sums up the multiplication values. Then the convolution slides over to the next pixel and repeats the same process until all the image pixels have been covered.
+
+
+
 
 
 # Results:
-The model was trained for 24 epochs. The best validation accuracy was achieved on the 23rd iteration.
+The model was trained for total 51 epochs. The best validation accuracy was achieved on the 44th iteration.
 
-# Conclution:
+Training Accuracy  : 96.52%     Training loss  : 0.105923
+Validation Accuracy: 97.11%     Validation loss: 0.125594
 
 
 
