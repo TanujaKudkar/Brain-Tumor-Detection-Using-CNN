@@ -31,5 +31,5 @@ The model was trained for 24 epochs. The best validation accuracy was achieved o
 
 
 
-Hope this helps🙂.
+Hope this helps🙂. Don't forget to add star.
 Thank you!
