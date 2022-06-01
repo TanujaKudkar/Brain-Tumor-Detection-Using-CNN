@@ -8,7 +8,7 @@ The dataset contains 2 folders: yes and no which contains total 3000 Brain MRI I
 
 Dataset is here : https://rb.gy/m5y2er
 
-# Part 1: Data Split
+# Part 1: Data Split ✂️
 The data was split in the following way:
 70% of the data for training, i.e. 1050 positive and 1050 negative examples, resulting in 2100 images.
 15% of the data for validation, i.e. 225 positive and 225 negative examples, resulting in 450 example images.
@@ -33,10 +33,10 @@ Computers see images using pixels. Pixels in images are usually related. A convo
 # Results:
 The model was trained for total 51 epochs. The best validation accuracy was achieved on the 44th iteration.
 
-Training Accuracy  : 96.52%     Training loss  : 0.105923
-Validation Accuracy: 97.11%     Validation loss: 0.125594
+✓ Training Accuracy  : 96.52%     ❌ Training loss  : 0.105923
+✓ Validation Accuracy: 97.11%     ❌ Validation loss: 0.125594
 
 
 
-Hope this helps🙂. Don't forget to add star.
+Hope this helps🙂. Don't forget to add star 🌟.
 Thank you!
