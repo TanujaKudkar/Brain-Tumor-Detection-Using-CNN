@@ -34,7 +34,7 @@ Activation Function adds nonlinearity to the netwpork. It is used to decides whi
 2) Pooling Layer:
 Primary aim of this layer is to decrease size of activation map. I've used Maxpooling for my model, because it reports the maximum output from the neighborhood.
 
-3)Dropout:
+3) Dropout:
 A dropout layer is utilised to overcome overfitting issue. For Ex. On passing dropout of 0.3%, 30% of nodes are dropped out randomly.
 
 Nodes in fully connected layers have full connectivity with all neurons in the preceding and succeding layers. It predicts class of image based on feature extracted.
