@@ -1,4 +1,4 @@
-# Brain-Tumor-Detection-Using-CNN
+# 🧠 Brain-Tumor-Detection-Using-CNN 🧠
 
 # Aim:
 The main goal of this project is to design CNN model to accurately identify the abnormal tumor region in MRI.
