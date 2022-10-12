@@ -8,6 +8,9 @@ The dataset contains 2 folders: yes and no which contains total 3000 Brain MRI I
 
 Dataset is here : https://rb.gy/m5y2er
 
+Image acquisition is done by retrieving an image from 
+dataset.
+
 # Part 1: Data Split ✂️
 The data was split in the following way:
 70% of the data for training, i.e. 1050 positive and 1050 negative examples, resulting in 2100 images.
@@ -18,7 +21,7 @@ The data was split in the following way:
 Keras's  'ImageDataGenerator' class ensures that model receives new variation of training images at each epoch by applying random transformation.
 I've use different transformation techniques like rescaling, zooming, horizontal_flip, nearest filling for training dataset and set batch size = 16. This will reduce overall memory usage.
 'flow_from_directory' method allows to read the images directly from directory and augment them while network model is learning on training images.
-For testing dataset, I've set batch size = 1, because in real life scenario, we process 1 image at a time.
+For testing dataset, I've set batch size = 1, because in real life scenario, we process 1 image at a time. Here we process the image using the file path from the drive.
 
 # Part 3: CNN architecture
 Convolutional Neural Network (CNN) is the deep learning technique to perform image classification. The Keras library in Python makes it pretty simple to build a CNN. 
